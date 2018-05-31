@@ -1,0 +1,15 @@
+a = 3
+b = 4
+c = 6
+if(a < b):
+    print(a)
+    if(b < c):
+        print(b)
+    elif(b > c):
+        print(c)
+    else:
+        print(a + b)
+elif(a > b):
+    print(b)
+else:
+    print(a + b)
